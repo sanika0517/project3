@@ -1,0 +1,205 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #cc6c5c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#product {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 80%;
+}
+
+#product .image {
+    flex: 1;
+}
+
+#product .image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#product .features {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#product .features h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#product .features .price {
+    font-size: 1.5em;
+    color: #ff6347;
+    margin-bottom: 10px;
+}
+
+#product .features .description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#product .features ul {
+    list-style: none;
+    padding: 0;
+}
+
+#product .features ul li {
+    background: url('checkmark.png') no-repeat left center;
+    background-size: 20px;
+    padding-left: 30px;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+#gallery {
+    text-align: center;
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+#gallery h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#gallery img {
+    width: 30%;
+    margin: 10px 1.5%;
+}
+#gall img {
+    width: 100%;
+    
+}
+#reviews {
+        text-align: center;
+        padding: 40px 20px;
+        margin: 20px 0;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    #reviews h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #111;
+    }
+    
+    blockquote {
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-left: 5px solid #ff6347;
+        margin: 20px auto;
+        max-width: 800px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    blockquote p {
+        margin: 0;
+        font-style: italic;
+        font-size: 1.2em;
+        color: #555;
+    }
+    
+    blockquote cite {
+        display: block;
+        text-align: right;
+        margin-top: 10px;
+        font-size: 0.9em;
+        color: #777;
+    }
+    
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #cc6c5c;
+        color: white;
+      }
+      
+      .footer-section {
+        flex: 1;
+        margin: 0 10px;
+      }
+      
+      .footer-section h4 {
+        margin-bottom: 10px;
+      }
+      
+      .footer-section ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .footer-section ul li {
+        margin-bottom: 5px;
+      }
+      
+      .footer-section ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      
+      .footer-section ul li a:hover {
+        text-decoration: underline;
+      }
+      
+      .footer-bottom {
+        text-align: center;
+        padding: 10px;
+        background-color: #222;
+      }
+   
+    
